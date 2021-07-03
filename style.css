@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: yellow;
+}
+
+body .container {
+  width: 80rem;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 3rem;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 3rem 0.2rem;
+          box-shadow: 0 0 3rem 0.2rem;
+  font-size: 8rem;
+}
+
+body .btn-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  gap: 4rem;
+  margin: 20px 0;
+}
+
+body .btn {
+  border: 1px solid;
+  border-color: #9808ff;
+  background-color: blue;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+body .btn:hover {
+  border-color: black;
+}
+
+body .btn.correct {
+  background-color: green;
+}
+
+body .btn.wrong {
+  background-color: red;
+}
+
+body .start-btn,
+body .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+body .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
